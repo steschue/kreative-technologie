@@ -1,0 +1,8 @@
+
+/*Fonts*/
+{
+font-family: "Whitehall";
+src: local("Whitehall"),
+url("./fonts/whitehall.ttf")
+format("TrueType")
+}

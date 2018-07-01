@@ -1,0 +1,243 @@
+
+/*Globals*/
+
+html {
+    background-color: #e88000;
+}
+
+img {
+	border:0;
+}
+
+/*Wrapper*/
+
+div#wrapper {
+     margin: 20px auto;
+	width: 1024px;
+	background-color: white;
+	box-shadow: 0 0 20px #000;
+	border:2px solid #555555;
+}
+
+/*Content*/
+
+div#content {
+    clear: both;
+    margin-top: 20px;
+}
+
+
+/*Logo*/
+
+.Logo  {
+	margin-top:0px;
+	margin-left: 3px;
+}
+
+/*Title*/
+
+.Maintitle {
+	padding-left: 300px;; 
+	margin-top:-80px;
+	font: italic bold 15pt Arial;
+}
+.Maintitle span {
+	color: #e88000; 
+	font: italic bold 22pt Arial;
+}
+
+
+/*Social Network*/
+
+ul#Social {
+     left: 1000px;
+     top: 75px;
+	/*margin-top: 15px;
+	padding-left: 900px;*/
+}
+
+ul#Social li {
+	display: inline;
+     list-style: none;
+	float: right;
+	padding: 5px;
+}
+ul#Social li img {
+	width: 20px; 
+	padding: 2px; 
+	border: 0; 
+	box-shadow: 0; 
+	display: inline;
+}
+
+/*Navigation*/
+
+nav {
+
+	margin-top: 50px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+nav ul {
+    background-color: #ffeed9;
+    padding: 0px;
+    margin: 0px;
+
+    box-shadow: 2px 2px 2px #555555;
+    -moz-box-shadow: 2px 2px 2px #555555;
+    -webkit-box-shadow: 2px 2px 2px #555555;
+}
+nav ul:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+nav ul li {
+    list-style: none;
+    float: left;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 14px 34px 14px 34px;
+    font: normal bold 12pt Arial;
+    color: #555555;
+
+    transition: background 0.3s ease-out; /* explorer 10 */
+    -webkit-transition: background 0.3s ease-out; padding: 14px 28px 14px 28px; /* chrome & safari */
+    -moz-transition: background 0.3 ease-out; /* firefox */
+    -o-transition: background 0.3 ease-out; /* opera */
+}
+
+nav ul li.cat1:hover a, nav ul li.cat1:hover > ul li a  {
+    background-color: #ffeea1;
+}
+nav ul li.cat2:hover > ul li a  {
+    background-color: #ffeea1;font-family: Arial;
+}
+nav ul li.cat3:hover a, nav ul li.cat3:hover > ul li a {
+    background-color: #ffeea1;font-family: Arial;
+}
+nav ul li.cat4:hover a, nav ul li.cat4:hover > ul li a {
+    background-color: #ffeea1;font-family: Arial;
+}
+nav ul li.cat5:hover a, nav ul li.cat5:hover > ul li a {
+    background-color: #ffeea1;font-family: Arial;
+}
+nav ul li.cat6:hover a, nav ul li.cat6:hover > ul li a {
+    background-color: #ffeea1;font-family: Arial;
+}
+nav ul li.cat7:hover a, nav ul li.cat7:hover > ul li a {
+    background-color: #ffeea1;font-family: Arial;
+}
+
+nav ul li:hover > a {
+    color: #000; 
+    background-color: #ffeea1;
+}
+nav ul li:hover > ul {
+    visibility: visible;
+}
+
+nav ul li ul{
+    display: inline;
+    visibility: hidden;
+    position: absolute;
+    padding:0px;
+}
+nav ul li ul li{
+	float: none;
+}
+nav ul li ul li a {
+    color: #000;
+}
+nav ul li ul li a:hover{
+	color: #555550;
+	background-color: #FAFAFA !important;
+}
+/*TitleListLeft*/
+
+.TitleListLeft {
+	font: italic normal 12pt Arial;
+	color: gray;
+	padding: 5px;
+}
+
+/*ListLeft*/
+
+.Subjects {
+	font: normal bold 20pt Arial; 
+	margin-left: 5px;
+	padding-left: 2px;
+	float: left; 
+	border: 2px solid #e88000; 
+	margin-top: 0px;
+}
+.Subjects li {
+	background-color: #fafafa;
+	list-style: none;
+	line-bottom: 2px;
+	border: 1px solid gray;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+}
+.Subjects a:hover {
+	text-decoration: none;
+	color: #e88000;
+}
+.Subjects a {
+	color: gray;
+	font: normal normal 12pt Arial;
+	display: block;
+	padding: 12px 30px 12px 30px;
+}
+
+/*FootNote*/
+
+footer {
+	background-color: #555555; 
+	color: white; 
+	font: normal normal 10pt Arial; 
+	border: 1px solid #dcdcdc; 
+	position: relative;
+	clear: both;
+	margin-top: 100px;
+	width: auto;
+}
+footer p {
+	padding-left: 0.8em;
+}
+footer span {
+	margin-left: 30em;
+}
+.MaintContFrame {
+	height: auto; 
+	width: auto;
+	margin-right:5px;
+	margin-left: 220px; 
+	margin-top: 0px;
+	border: 2px solid #e88000;
+	background-color:#fafafa;
+
+/*Text Stuff*/	
+}
+.TextFrame {
+	padding: 5px 10px 5px 10px;
+	margin: 1px 1px 1px 1px;
+	border: 4px solid white;
+	min-height: 700px;
+}
+.TextFrame p {
+	font: normal normal 12pt Arial; 
+}
+.TextFrame p, h1, h3, h4, h5 {
+	margin-left: 20px; 
+	margin-right: 20px;
+	font-family: Arial;
+}
